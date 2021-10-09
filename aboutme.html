@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Earring Fashion</title>
+        <link rel="stylesheet" href="css/style_1.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" /> 
+    </head>
+    <body style=" background-color:rgba(255, 192, 203, 0.39);">
+        <div class="earring" id="myearring">
+            <a href="index.html">หน้าแรก</a>
+            <a href="nows.html">สินค้า</a>
+            <a href="buy.html">วิธีสั่งซื้อสินค้า</a>
+            <a href="aboutme.html" class="homepage">เกี่ยวกับเรา</a>
+            <a href="contact.html" >ติดต่อเรา</a>
+            <a href="javascript:void(0);" class="icon" onclick="myMenu()">
+               <i class="fa fa-bars"></i>
+            </a>
+        </div> 
+
+        <div class="box">
+            <img src="images/me.jpg" alt="">
+            <h2>Warisa Thamla-aied</h2>
+            <h6>Web Devloper - Web Designer</h6>
+            <p>
+                <div class="datas">
+                    <strong>Name:</strong><span>Warisa Thamla-aied</span>
+                </div>
+                <div class="datas">
+                    <strong>Nick name:</strong> <span>Fah</span>
+                </div>
+                <div class="datas">
+                    <strong>Date of birth:</strong> <span>30 Jun 2004</span>
+                </div>
+                <div class="datas">
+                    <strong>Place of birth:</strong> <span>Phayao</span>
+                </div>
+                <div class="datas">
+                    <strong>Study at:</strong> <span>Pattaya Redemptorist Technological College</span>
+                </div> 
+            </p>
+            <ul>
+
+        </div>
+        
+        
+        <footer style="margin-top: 30px;">
+            <p>Copyright @ 2021 Created By warisa </p>
+        </footer>
+        <script>
+            function myMenu() {
+                var x = document.getElementById("myearring");
+                if (x.className === "earring") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "earring";
+                }
+            }
+        </script>
+    </body>
+</html>

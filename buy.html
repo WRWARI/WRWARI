@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Earring Fashion</title>
+        <link rel="stylesheet" href="css/style_1.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" /> 
+       <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    </head>
+    <body style=" background-color:rgba(255, 192, 203, 0.39);">
+        <header>
+            <img src="images/pok1.png" alt="">
+        </header>
+        <div class="earring" id="myearring">
+            <a href="index.html">หน้าแรก</a>
+            <a href="nows.html">สินค้า</a>
+            <a href="buy.html" class="homepage">วิธีสั่งซื้อสินค้า</a>
+            <a href="aboutme.html" >เกี่ยวกับเรา</a>
+            <a href="contact.html" >ติดต่อเรา</a>
+            <a href="javascript:void(0);" class="icon" onclick="myMenu()">
+               <i class="fa fa-bars"></i>
+            </a>
+        </div> 
+    <section>
+        <div>
+            <img src="images/buy.png" alt="" style="width: 100%;">
+        </div>
+
+        <footer>
+            <p>Copyright @ 2021 Created By warisa </p>
+        </footer>
+        <script>
+            function myMenu() {
+                var x = document.getElementById("myearring");
+                if (x.className === "earring") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "earring";
+                }
+            }
+        </script>
+    </section>
+    
+        
